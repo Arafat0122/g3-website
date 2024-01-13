@@ -7,7 +7,14 @@
 }
 
 .btn-primary {
-    
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 25px 50px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
 }
 
 /* heaer style section */
@@ -59,4 +66,28 @@ nav li a {
 
 .banner-description {
     color: #727272;
+}
+.banner-img{
+    margin-top: 50px;
+    width: 100%;
+}
+
+/* responsive media queries */
+
+/* mobile devices */
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* tablet or medium devices */
+@media screen and (min-width: 576px) and (max-width:960px) {
+    nav{
+        flex-direction: column;
+    }
 }
