@@ -82,6 +82,7 @@ main{
 .teams-container{
     display: flex;
     align-items: center;
+    /* margin: 0 auto; */
 }
 .teams-img-container{
     display: grid;
